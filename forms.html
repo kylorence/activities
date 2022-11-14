@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box{
+            padding: 10px;
+            text-align: center;
+            background-color: rgba(22, 3, 21, 0.274);
+        }
+    </style>
+    <title>Grid</title>
+</head>
+<body class="deep grey darken-3">
+  <nav class="grey lighten-1"></nav>
+  <div class="container">
+    <h4 class="grey-text">date picker</h4>
+    <div class="form">
+        <div class="input-field">
+          <div clas="black"></div>
+            <input type="text" class="datepicker">
+            <label for="date">date</label>
+            <h4 class="grey-text">time picker</h4>
+        <div clas="input-field">
+          <label for="time">time</label>
+            <input type="text" class="timepicker">
+        </div>
+        </div>
+      
+<h5 class="grey-text center">Chips</h5>
+<hr>
+
+<section class="section">
+    <div class="container">
+        <div class="chip">
+            <img src="gidon-wessner-SZtLK_W7vKo-unsplash.jpg" alt="Personal Contact">
+            lense
+        </div>
+        <div class="chip">
+            <img src="ethan-hoover-vasU4-TlC5I-unsplash.jpg" alt="Personal Contact">
+            angle
+        </div>
+        <div class="chip">
+            <img src="nicolas-ladino-silva-o2DVsV2PnHE-unsplash.jpg" alt="Personal Contact">
+            suitable
+        </div>
+        <div class="chip">
+            <img src="graham-mansfield-wp9ggFHgsAI-unsplash.jpg" alt="Personal Contact">
+            image
+            <i class="close material-icons">close</i>
+        </div>
+        <div class="chip">
+            <img src="jason-leung-o08u5jVuy00-unsplash.jpg" alt="Personal Contact">
+            captured
+            <i class="close material-icons">close</i>
+        </div>
+        <div class="chip">
+            <img src="jakob-owens-2Aq35JCbNFA-unsplash.jpg" alt="Personal Contact">
+            focus
+            <i class="close material-icons">close</i>
+        </div>
+    </div>
+</section>
+
+<br><br><br> 
+
+<hr>
+<h5 class="grey-text center">Radio Buttons</h5>
+<hr>
+
+<section class="section">
+    <div class="container">
+        <form action="#">
+            <p>
+                <label>
+                    <input name="group1" type="radio" checked />
+                    <span>image quality</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="group1" type="radio" />
+                    <span>ergonomics</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>suitable habits</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="group1" type="radio" disabled="disabled" />
+                    <span>focus</span>
+                </label>
+            </p>
+        </form>
+    </div>
+</section> 
+
+    </div>
+  </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+      $(document).ready(function() {
+        // media init
+                $('.materialboxed').materialbox({
+                    inDuration: 2000,
+                    outDuration: 1000,
+                    outerWidth: 3000
+        });
+        $(document).ready(function(){
+    $('.tabs').tabs();
+    $(document).ready(function(){
+    $('.datepicker').datepicker();
+  });
+    $(document).ready(function(){
+    $('.timepicker').timepicker();
+  });
+                    
+                })
+    });
+</script>
