@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+background-image{
+    background-image: url('./reinhart-julian-WxM465oM4j4-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+body{
+    background: url(reinhart-julian-WxM465oM4j4-unsplash.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background: rgba(3, 3, 3, 0.2);
+}
+logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(10, 5, 5);
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav{
+    display: block;
+    list-style: none;
+    padding: 0px 20px;
+}
+a,button{
+    font-size: 16px;
+    font-weight: 500vh;
+    color: rgb(8, 6, 6);
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    background: rgba(43, 38, 38, 0.2);
+    border: 2px solid rgb(49, 27, 27);
+    border-radius: 50px;
+    padding: 0px 25px;
+}
+nav li a:hover{
+    color: rgb(8, 6, 6);
+    transition: all 0.4s ease 0s;
+}
